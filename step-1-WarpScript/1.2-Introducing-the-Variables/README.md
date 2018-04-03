@@ -10,6 +10,18 @@ This function expects two elements on the stack :
 
 Then to push back the element on the stack, write the variable name **precede of a $**.
 
+```
+// counter exemple
+10 20 40 80 + + +
+'totalcounter' STORE
+"The totalcounter: " 
+$totalcounter
+TOSTRING
++
+```
+
+[Test](https://quantum.metrics.ovh.net/#/warpscript/MTAgMjAgNDAgODAgKyArICsKJ3RvdGFsY291bnRlcicgU1RPUkUKIlRoZSB0b3RhbGNvdW50ZXI6ICIgCiR0b3RhbGNvdW50ZXIKVE9TVFJJTkcKKw%3D%3D/eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
+
 Let's try it, save the following string in a variable and then push it back several time on the stack!
 
 ```
@@ -21,8 +33,9 @@ Let's try it, save the following string in a variable and then push it back seve
 
 // Play with the saved variable
 
-
 ```
+
+[Empty Test](https://quantum.metrics.ovh.net/#/warpscript//eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
 
 ## Get a read token
 
@@ -33,6 +46,12 @@ Security in Warp10 instance are handled with crypto tokens. They can be pretty l
 ```
 
 You can store it in a variable if you want.
+
+# Lesson summary
+
+- [Store value](https://quantum.metrics.ovh.net/#/warpscript/MTAgMjAgNDAgODAgKyArICsKJ3RvdGFsY291bnRlcicgU1RPUkUKIlRoZSB0b3RhbGNvdW50ZXI6ICIgCiR0b3RhbGNvdW50ZXIKVE9TVFJJTkcKKw%3D%3D/eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
+
+- [Get toket](https://quantum.metrics.ovh.net/#/warpscript/QEhFTExPRVhPV09STEQvR0VUUkVBRFRPS0VO/eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
 
 # To be continued
 

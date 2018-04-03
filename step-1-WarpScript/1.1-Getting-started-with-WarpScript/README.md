@@ -34,11 +34,18 @@ The following WarpScript example list all the available basic types.
 
 ```
 // This is a commentary
-'a'      // string value
-true     // boolean value
-42        // long value
-3.14159    // double value
+'This a string value: bellow result'        // string value (push in LIFO stack)
+true                                        // boolean value (push in LIFO stack)
+50                                          // long value (push in LIFO stack)
+40                                          // long value (push in LIFO stack)
+3.14159                                     // double value (push in LIFO stack)
+6.85841                                     // Another double value (push in LIFO stack)
++                                           // Compute last stack Value (3.14159 + 6.85841) = 10
++                                           // Compute last stack Value 10 + 42
+==                                          // Check same result 50 == 50 = true
 ```
+[Test](https://quantum.metrics.ovh.net/#/warpscript/Ly8gVGhpcyBpcyBhIGNvbW1lbnRhcnkKJ1RoaXMgYSBzdHJpbmcgdmFsdWU6IGJlbGxvdyByZXN1bHQnICAgICAgICAvLyBzdHJpbmcgdmFsdWUgKHB1c2ggaW4gTElGTyBzdGFjaykKdHJ1ZSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBib29sZWFuIHZhbHVlIChwdXNoIGluIExJRk8gc3RhY2spCjUwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gbG9uZyB2YWx1ZSAocHVzaCBpbiBMSUZPIHN0YWNrKQo0MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIGxvbmcgdmFsdWUgKHB1c2ggaW4gTElGTyBzdGFjaykKMy4xNDE1OSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBkb3VibGUgdmFsdWUgKHB1c2ggaW4gTElGTyBzdGFjaykKNi44NTg0MSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBBbm90aGVyIGRvdWJsZSB2YWx1ZSAocHVzaCBpbiBMSUZPIHN0YWNrKQorICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIENvbXB1dGUgbGFzdCBzdGFjayBWYWx1ZSAoMy4xNDE1OSArIDYuODU4NDEpID0gMTAKKyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBDb21wdXRlIGxhc3Qgc3RhY2sgVmFsdWUgMTAgKyA0Mgo9PSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIENoZWNrIHNhbWUgcmVzdWx0IDUwID09IDUwID0gdHJ1ZQ%3D%3D/eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
+
 
 To compute an operation (for example an addition), put the two elements before the operator [+](http://www.warp10.io/reference/functions/function_ADD/) on the stack.
 You will get the result on top of the stack.
@@ -55,6 +62,15 @@ Let's try it, copy that empty WarpScript in Quantum and implement the simple spe
 
 // Compute 'Hello' + ' world!'
 ```
+
+[Empty Test](https://quantum.metrics.ovh.net/#/warpscript//eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
+
+
+# Lesson summary
+
+- [Select warp10 instance](https://quantum.metrics.ovh.net/#/warpscript//eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
+
+- [First basic operations](https://quantum.metrics.ovh.net/#/warpscript/Ly8gVGhpcyBpcyBhIGNvbW1lbnRhcnkKJ1RoaXMgYSBzdHJpbmcgdmFsdWU6IGJlbGxvdyByZXN1bHQnICAgICAgICAvLyBzdHJpbmcgdmFsdWUgKHB1c2ggaW4gTElGTyBzdGFjaykKdHJ1ZSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBib29sZWFuIHZhbHVlIChwdXNoIGluIExJRk8gc3RhY2spCjUwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gbG9uZyB2YWx1ZSAocHVzaCBpbiBMSUZPIHN0YWNrKQo0MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIGxvbmcgdmFsdWUgKHB1c2ggaW4gTElGTyBzdGFjaykKMy4xNDE1OSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBkb3VibGUgdmFsdWUgKHB1c2ggaW4gTElGTyBzdGFjaykKNi44NTg0MSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBBbm90aGVyIGRvdWJsZSB2YWx1ZSAocHVzaCBpbiBMSUZPIHN0YWNrKQorICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIENvbXB1dGUgbGFzdCBzdGFjayBWYWx1ZSAoMy4xNDE1OSArIDYuODU4NDEpID0gMTAKKyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBDb21wdXRlIGxhc3Qgc3RhY2sgVmFsdWUgMTAgKyA0Mgo9PSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIENoZWNrIHNhbWUgcmVzdWx0IDUwID09IDUwID0gdHJ1ZQ%3D%3D/eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
 
 # To be continued
 

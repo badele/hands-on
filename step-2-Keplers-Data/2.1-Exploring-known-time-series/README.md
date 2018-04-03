@@ -35,8 +35,13 @@ Here a preloaded WarpScript that you can use, find all the GTS available!
 [ $token  ] FIND
 
 ```
+[Empty Test](https://quantum.metrics.ovh.net/#/warpscript//eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
 
 The one that we are looking for has a label KEPLERID=6541920, can you see it? Change the FIND to have only one result: sap.flux for Kepler-11!
+
+# Lesson summary
+
+[Get stars](https://quantum.metrics.ovh.net/#/warpscript/Ly8gU3RvcmluZyB0aGUgdG9rZW4gaW50byBhIHZhcmlhYmxlCkBIRUxMT0VYT1dPUkxEL0dFVFJFQURUT0tFTiAndG9rZW4nIFNUT1JFIAoKLy8gU3RhcnQgdGhlIGZpbmQgd2l0aCB0aGUgdG9rZW4gYXMgZmlyc3QgcGFyYW1ldGVyClsgJHRva2VuICd%2BLionIHt9IF0gRklORAoKLy8gU2VsZWN0IG9ubHkgS2VwbGVyLTExIHNlcmllcwpbICR0b2tlbiAnfi4qJyB7ICdLRVBMRVJJRCcgJzY1NDE5MjAnIH0gXSBGSU5E/eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
 
 # To be continued
 

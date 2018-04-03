@@ -34,6 +34,9 @@ The list will be droped of the stack, so at the start of the FOREACH process onl
 
 ```
 
+[Empty Test](https://quantum.metrics.ovh.net/#/warpscript//eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
+
+
 ## LMAP
 
 The [LMAP](http://www.warp10.io/reference/functions/function_LMAP/) function will on the other side compute an operation on each elements of a List.
@@ -61,6 +64,10 @@ As the FOREACH function, LMAP takes two parameter: a list and a macro. LMAP will
 
 
 ```
+
+[Empty Test](https://quantum.metrics.ovh.net/#/warpscript//eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
+
+# Lesson summary
 
 # To be continued
 
