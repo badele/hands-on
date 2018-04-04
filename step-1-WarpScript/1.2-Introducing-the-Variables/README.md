@@ -10,48 +10,44 @@ This function expects two elements on the stack :
 
 Then to push back the element on the stack, write the variable name **precede of a $**.
 
-```
-// counter exemple
-10 20 40 80 + + +
-'totalcounter' STORE
-"The totalcounter: " 
-$totalcounter
-TOSTRING
-+
-```
+[//]: # (CODEBEGIN|store.mc2)
+[//]: # (CODEEND|store.mc2)
 
-[Test](https://quantum.metrics.ovh.net/#/warpscript/MTAgMjAgNDAgODAgKyArICsKJ3RvdGFsY291bnRlcicgU1RPUkUKIlRoZSB0b3RhbGNvdW50ZXI6ICIgCiR0b3RhbGNvdW50ZXIKVE9TVFJJTkcKKw%3D%3D/eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
+[//]: # (LINKBEGIN|store.mc2|Test store)
+[//]: # (LINKEND|store.mc2)
 
 Let's try it, save the following string in a variable and then push it back several time on the stack!
 
-```
-// A WarpScript string
-'Hello World!'
+[//]: # (CODEBEGIN|exercise.mc2)
+[//]: # (CODEEND|exercise.mc2)
 
-// Save this string in variable
-
-
-// Play with the saved variable
-
-```
-
-[Empty Test](https://quantum.metrics.ovh.net/#/warpscript//eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
+[//]: # (LINKBEGIN|exercise.mc2|Exercise)
+[//]: # (LINKEND|exercise.mc2)
 
 ## Get a read token
 
 Security in Warp10 instance are handled with crypto tokens. They can be pretty long, so to ease your workflow, we stored it in the platform! You can push the token into the stack using this:
 
-```
-@HELLOEXOWORLD/GETREADTOKEN
-```
+[//]: # (CODEBEGIN|token.mc2)
+[//]: # (CODEEND|token.mc2)
+
+[//]: # (LINKBEGIN|token.mc2|Token)
+[//]: # (LINKEND|token.mc2)
+
 
 You can store it in a variable if you want.
 
 # Lesson summary
 
-- [Store value](https://quantum.metrics.ovh.net/#/warpscript/MTAgMjAgNDAgODAgKyArICsKJ3RvdGFsY291bnRlcicgU1RPUkUKIlRoZSB0b3RhbGNvdW50ZXI6ICIgCiR0b3RhbGNvdW50ZXIKVE9TVFJJTkcKKw%3D%3D/eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
+[//]: # (SUMMARYBEGIN|store.mc2|Store value)
+[//]: # (SUMMARYEND|store.mc2)
 
-- [Get toket](https://quantum.metrics.ovh.net/#/warpscript/QEhFTExPRVhPV09STEQvR0VUUkVBRFRPS0VO/eyJ1cmwiOiJodHRwczovL3dhcnAucGllcnJlemVtYi5vcmcvYXBpL3YwIiwiZmV0Y2hFbmRwb2ludCI6Ii9mZXRjaCIsImhlYWRlck5hbWUiOiJYLVdhcnAxMCJ9)
+[//]: # (SUMMARYBEGIN|token.mc2|Get token)
+[//]: # (SUMMARYEND|token.mc2)
+
+[//]: # (SUMMARYBEGIN|solutions.mc2|Solutions)
+[//]: # (SUMMARYEND|solutions.mc2)
+
 
 # To be continued
 

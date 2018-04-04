@@ -84,6 +84,10 @@ Let's try it, copy that empty WarpScript in Quantum and implement the simple spe
 
 [//]: # (SUMMARYEND|sample.mc2)
 
+[//]: # (SUMMARYBEGIN|solutions.mc2|Solutions)
+[//]: # (SUMMARYEND|solutions.mc2)
+
+
 # To be continued
 
 WarpScript allow the user to save specific data inside Variable, let's discover how to process in the [next step](/step-1-WarpScript/1.2-Introducing-the-Variables/README.md).
