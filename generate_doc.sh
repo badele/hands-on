@@ -1,6 +1,7 @@
 #/bin/bash
 
 URL="https://quantum.metrics.ovh.net/#/warpscript/"
+BACKEND='{"url":"https://warp.pierrezemb.org/api/v0","fetchEndpoint":"/fetch","headerName":"X-Warp10"}'
 
 function replaceCodeBlock() {
     MDFULLNAME="$1"
@@ -44,9 +45,10 @@ function replaceLinkBlock() {
 
     if [ "$LHEAD" != "" -a "$LTAIL" != "" ]; then
         LINK=$(base64 -w0 "$MC2FULLNAME")
+        LBACKEND=$(echo "$BACKEND" | base64 -w0)
         
         cat "$MDFULLNAME" | grep -B 10000 "$HEAD" > $MDTMP
-        echo "[$TITLE](${URL}${LINK})" >> $MDTMP
+        echo "[$TITLE](${URL}${LINK}/${LBACKEND})" >> $MDTMP
         echo "" >> $MDTMP
         cat "$MDFULLNAME" | grep -A 10000 "$TAIL" >> $MDTMP
 
@@ -71,9 +73,10 @@ function replaceSummaryBlock() {
 
     if [ "$LHEAD" != "" -a "$LTAIL" != "" ]; then
         LINK=$(base64 -w0 "$MC2FULLNAME")
+        LBACKEND=$(echo "$BACKEND" | base64 -w0)
         
         cat "$MDFULLNAME" | grep -B 10000 "$HEAD" > $MDTMP
-        echo "- [$TITLE](${URL}${LINK})" >> $MDTMP
+        echo "- [$TITLE](${URL}${LINK}/${LBACKEND})" >> $MDTMP
         echo "" >> $MDTMP
         cat "$MDFULLNAME" | grep -A 10000 "$TAIL" >> $MDTMP
 
